@@ -1,29 +1,17 @@
-.web {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 3%;
-    color: #4D5AE5;
-}
-
-.other-text {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: #333;
-}
-
-
-.web {
+h1 {
     font-family: "Raleway", sans-serif;
-    font-weight: 800px;
-    size: 18px;
+    font-size: 18px;
+    font-weight: 800;
     line-height: 21px;
-    letter-spacing: 3%;
-    color: #4D5AE5;
+    letter-spacing: 0.03em;
+}
 
+.web {
+    color: #4D5AE5;
+}
+
+.studio {
+    color: #2E2F42;
 }
 
 .banner1 {
