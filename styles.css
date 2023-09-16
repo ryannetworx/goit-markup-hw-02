@@ -1,5 +1,13 @@
 body {
     font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-top: 10px; /* Add margin for spacing */
+    color: #434455;
+    
 }
 
 h2 {
@@ -12,10 +20,12 @@ h2 {
 
 .web {
     color: #4D5AE5;
+    text-align: left;
 }
 
 .studio {
     color: #2E2F42;
+    text-align: left;
 }
 
 nav {
@@ -103,21 +113,36 @@ h3 {
     letter-spacing: 0.02em;
     text-align: left;
     color: #2E2F42;
+;
 }
 
-h2 {
-    font-family: Roboto;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    text-align: center;
+footer {
+    width: 100%;
+    height: 312px;
+    background-color: #2E2F42;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding and border in the width */
+    text-align: left; /* Center-align content */
+    /* text-align: center; Center-align content */
+    /* position: relative; */
+    /* top: 2280px; Adjust top position as needed */
 }
 
-footer (
-    width: 264px;
-    height: 112px;
-    top: 2380px;
-    left: 156px;
-    background: #2E2F42;
-)
+h4 {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+#web-footer {
+    color: #4D5AE5;
+}
+
+#studio-footer {
+    color: #F4F4FD;
+}
