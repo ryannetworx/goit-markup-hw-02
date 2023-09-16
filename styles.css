@@ -86,6 +86,7 @@ h1 {
     letter-spacing: 0.04em;
     text-align: center;
     text-decoration: none;
+    white-space: nowrap; /* prevet from wrapping to a new line */
 }
 
 /* #solutions {} next assignment in div */
@@ -99,6 +100,16 @@ ul {
     list-style-type: none;
     padding: 0;
     text-align: justify;
+}
+
+.centered-heading h2 {
+    text-align: center; /* Center-align the text */
+    font-size: 40px; /* Set the font size to 60px */
+    font-weight: 700;
+    line-height: 50px;
+    margin-top: 20px; /* Add some top margin for spacing */
+    color: #2E2F42;
+    letter-spacing: 0.02em;
 }
 
 /* li {
@@ -131,7 +142,7 @@ footer {
 
 h4 {
     font-family: "Raleway", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 800;
     line-height: 21px;
     letter-spacing: 0.03em;
