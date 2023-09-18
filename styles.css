@@ -41,6 +41,10 @@ nav {
     font-weight: 400
 }
 
+header {
+    margin-bottom: 40px; /* might delete this based on figma */
+}
+
 h1, .button {
     text-align: center;
     letter-spacing: 0.02em;
