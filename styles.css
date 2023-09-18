@@ -33,6 +33,10 @@ nav {
     letter-spacing: 0.02em;
 }
 
+#nav-studio {
+    color: #4D5AE5;
+}
+
 .nav-link2 {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
