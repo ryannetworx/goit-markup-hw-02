@@ -25,12 +25,14 @@ h2 {
     text-align: left;
 }
 
-nav {
+nav a {
     /* font-family: "Roboto", sans-serif; */
-    font-size: 16px;
+    /* font-size: 16px; */
     font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.02em;
+    /* line-height: 24px; */
+    /* letter-spacing: 0.02em; */
+    text-decoration: none;
+    color: inherit;
 }
 
 #nav-studio, #nav-portfolio, #nav-contacts {
@@ -105,6 +107,7 @@ h1 {
     align-items: center;
     justify-content: center; */
     transition: background-color 0.3s;
+    margin-bottom: 3px;
 
 }
 
@@ -119,7 +122,7 @@ h1 {
 }
 
 .button:hover {
-    background-color: #14b029; /* the changing background color */
+    background-color: #081be8; /* the changing background color */
 }
 
 /* #solutions {} maybe next assignment in div */
